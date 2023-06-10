@@ -1,7 +1,7 @@
-<body>
-<div><%= flash[:notice] %></div>
+<body class="body-index">
+<div class="destroy-flash"><%= flash[:notice] %></div>
 
-<h1>Books</h1>
+<h1 class="head">Books</h1>
 
 <table>
  <thead>
@@ -40,6 +40,7 @@
  <% end %>
 
 <%= form_with model: @book do |f| %>
+ <div class="main">
  <p>
   Title
   <br><%= f.text_field :title %></br>
@@ -49,6 +50,7 @@
  <p>Body
  <br><%= f.text_area :body %></br>
 </p>
- <p><%= f.submit 'Create Book' %></p>
+ <span class="submit"><%= f.submit 'Create Book' %><span>
+ </div>
 <% end %>
 </body>

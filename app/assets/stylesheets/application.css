@@ -20,9 +20,21 @@
  box-sizing: border-box;
 }
 
-body {
+.body {
     margin: 25px 0 0 30px;
-    font-size: 80%;
+    font-size: 84%;
+}
+.body-index {
+    margin-left:30px;
+    font-size: 84%;
+}
+.body-show {
+    margin-left:30px;
+    font-size: 84%;
+}
+.destroy-flash {
+    padding: 30px 0 10px 34px;
+    color: green;
 }
 .hello{
     margin-bottom: -30px;
@@ -35,4 +47,39 @@ body {
 
 .start {
     color: Black;
+}
+
+.head {
+    letter-spacing: 0.03em;
+}
+table {
+    padding: 8px;
+}
+td {
+    padding: 3px;
+}
+.main > p {
+    padding: 5px;
+}
+.show-flash {
+    padding: 20px 0 20px 34px;
+    color: green;
+}
+.show-title {
+    margin-left: 34px;
+}
+.show-body {
+    margin: 34px;
+}
+.edit-body {
+    margin-top: 5px;
+}
+.edit-title {
+    margin-top: 5px;
+}
+.edit-update {
+    margin-top: 8px;
+}
+.edit-link {
+    margin-top: 8px;
 }
